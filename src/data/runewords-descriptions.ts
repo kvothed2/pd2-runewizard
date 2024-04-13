@@ -263,7 +263,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Zephyr: `
-  7% Chance To Cast Level 1 Twister When Struck
+  7% Chance To Cast Level 10 Twister When Struck
 	25% Faster Run/Walk
 	25% Increased Attack Speed
 	+33-66% Enhanced Damage (varies)
@@ -281,9 +281,9 @@ const runewordsDesc: TRunewordMeta = {
 	10% Chance of Open Wounds
   +120 Open Wounds Damage Per Second
 	Prevent Monster Heal
-	+3 To Hunger
-	+3 To Maul
-	+3 To Werebear
+	+6 To Hunger
+	+6 To Maul
+	+6 To Werebear
 	+10 To Energy
 	+2 To Mana After Each Kill
 	Level 13 Summon Grizzly (35 Charges)
@@ -599,6 +599,7 @@ const runewordsDesc: TRunewordMeta = {
 	+10 To Energy
 	All Resistances +15
 	Level 16 Clay Golem (36 Charges)
+  Replenishes Charges
   `,
 
   Wind: `
@@ -617,7 +618,7 @@ const runewordsDesc: TRunewordMeta = {
   Brand: `
   65% Chance To Cast Level 31 Amplify Damage When Struck
 	50% Chance To Cast Level 45 Bone Spear On Striking
-  You May Now Summon 6 Additional Sekeleton Archers
+  You May Now Summon 8 Additional Sekeleton Archers
 	+260-340% Enhanced Damage (varies)
 	Ignore Target's Defense
 	20% Bonus to Attack Rating
@@ -873,7 +874,7 @@ const runewordsDesc: TRunewordMeta = {
   #### Weapons
   100% Chance To Cast level 40 Blaze When You Level-up
 	20% Chance To Cast Level 40 Firestorm On Striking (On Casting in Staves)
-	Level 10-15 Redemption Aura When Equipped (varies)
+	Level 10-12 Redemption Aura When Equipped (varies)
 	+400-450% Enhanced Damage (varies)
 	Ignores Target's Defense
 	14% Mana Stolen Per Hit
@@ -884,7 +885,7 @@ const runewordsDesc: TRunewordMeta = {
   #### Shields
   100% Chance To Cast level 40 Blaze When You Level-up
 	20% Chance To Cast Level 40 Firestorm On Striking
-	Level 10-15 Redemption Aura When Equipped (varies)
+	Level 10-12 Redemption Aura When Equipped (varies)
 	+250-300% Enhanced Damage (varies)
   +350-400 Defense Vs. Missile (varies)
 	-28% To Enemy Fire Resistance
@@ -895,7 +896,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Pride: `
   25% Chance To Cast Level 30 Fire Wall When Struck
-	Level 16-20 Concentration Aura When Equipped (varies)
+	Level 18-20 Concentration Aura When Equipped (varies)
 	260-300% Bonus To Attack Rating (varies)
 	+4-396% Damage To Demons (4% per Character Level)
 	Adds 50-280 Lightning Damage
@@ -991,7 +992,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Enlightenment: `
   35% Chance To Cast Level 25 Blaze When Struck
-	15% Chance To Cast level 28 Fire Ball On Casting
+	25% Chance To Cast level 28 Fire Ball On Casting
 	+2 To Sorceress Skill Levels
 	20% Faster Cast Rate
   +5-8 To Warmth (varies)
@@ -1056,7 +1057,7 @@ const runewordsDesc: TRunewordMeta = {
   Plague: `
   25% Chance to Cast Level 15 Poison Nova On Striking
 	30% Chance to Cast Level 35 Lower Resist When Struck
-	Level 13-17 Cleansing Aura When Equipped (varies)
+	Level 15-17 Cleansing Aura When Equipped (varies)
 	+1-2 All Skills (varies)
   +20% Faster Cast Rate
 	+340-380% Damage to Demons (varies)
@@ -1112,7 +1113,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Obsession: `
-  24% Chance to cast level 10 Weaken on Striking (On Casting in Staves)
+  24% Chance to cast level 18 Weaken on Striking (On Casting in Staves)
   Indestructible
   +4 To All Skills
   +15% Faster Cast Rate
@@ -1175,7 +1176,7 @@ const runewordsDesc: TRunewordMeta = {
   Level 8-12 Salvation Aura When Equipped
   +2 To All Skills
   +20% Faster Run/Walk
-  +20% Increased Attack Speed
+  +40% Increased Attack Speed
   +200-300% Enhanced Damage
   Ignore Target's Defense
   Adds 305-380 Fire Damage
@@ -1188,7 +1189,7 @@ const runewordsDesc: TRunewordMeta = {
   Indestructible
   +20% Faster Hit Recovery
   10-12% Life Stolen Per Hit (varies)
-  +12-14 To Zeal (varies)
+  +12-18 To Zeal (varies)
   +150-200% Enhanced Defense
   Magic Damage Taken Reduced by 6-12 (varies)
   Cannot Be Frozen
