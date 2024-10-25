@@ -16,7 +16,7 @@ The runes are listed in order of rarity, from top to bottom, and left to right. 
 
 ## Runewords
 
-**Season 7 New and Updated Runewords** have a small <span class="rw-Table-tdTitlePatch">S9 New/Upd</span> icon next to the name.
+**Season 10 New and Updated Runewords** have a small <span class="rw-Table-tdTitlePatch">S10 New/Upd</span> icon next to the name.
 
 ## Note about storage
 
