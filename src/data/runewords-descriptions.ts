@@ -77,7 +77,7 @@ const runewordsDesc: TRunewordMeta = {
   +3 To Fire Skills
   Adds 5-30 Fire Damage
   +3 To Fire Bolt (Sorceress Only)
-  +3 To Inferno (Sorceress Only)
+  +1-2 To Inferno (Sorceress Only) (varies)
   +3 To Warmth (Sorceress Only)
   +2 To Mana After Each Kill
   +2-198 To Defense (2 per Character Level) 

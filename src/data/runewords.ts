@@ -609,7 +609,7 @@ const runewords: TRuneword[] = [
     title: "Zenith",
     runes: ["Jah", "Zod", "Ort", "Thul", "Ral"],
     level: 69,
-    ttypes: ["Polearms", "Spears", "Missile Weapons", "Staves"],
+    ttypes: ["2-H Swords", "Polearms", "Spears", "Missile Weapons", "Staves"],
     version: 'S10 Upd',
   },
   {
