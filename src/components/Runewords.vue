@@ -55,10 +55,13 @@ export default defineComponent({
         const matchesType = item.ttypes.some((type) => {
           return type.toLowerCase().includes(searchTerm);
         });
+        const matchesRunes = item.runes.some((runes) => {
+          return runes.toLowerCase().includes(searchTerm);
+        }); // added match for runes
         const description = runewordsDesc[item.title]; // matching runewords from runewords.ts to runewords-descriptions.ts
         const matchesDescription = description.toLowerCase().includes(searchTerm); // added match for description
 
-        return searchTerm === "" || matchesTitle || matchesType || matchesDescription; // added description in search term return
+        return searchTerm === "" || matchesTitle || matchesType || matchesDescription || matchesRunes; // added description in search term return
       };
 
       this.runewordsList.forEach((item) => {

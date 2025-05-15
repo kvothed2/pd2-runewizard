@@ -9,6 +9,7 @@ const itemTypes: { [key in TItemTypeId]: { url?: string } } = {
   Maces: { url: "https://diablo2.diablowiki.net/Maces" },
   "Melee Weapons": {},
   "Missile Weapons": {},
+  "Throwing Weapons": {},
   Orbs: { url: "http://classic.battle.net/diablo2exp/items/normal/orbs.shtml" },
   "Paladin Shields": { url: "https://diablo2.diablowiki.net/Paladin_Items" },
   Polearms: { url: "https://diablo2.diablowiki.net/Polearms" },

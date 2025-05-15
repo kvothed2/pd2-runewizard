@@ -6,6 +6,8 @@ Click on the runes to mark which ones you have found. The available runewords wi
 
 The table can be sorted : try clicking on the table headings, you may find it useful!
 
+You can easily search through runeword stats, item types, runes and names of runewords.
+
 ## Runes
 
 The runes are listed in order of rarity, from top to bottom, and left to right. The runes upgrade formula in Project Diablo 2 has been changed to the following:
@@ -16,7 +18,7 @@ The runes are listed in order of rarity, from top to bottom, and left to right. 
 
 ## Runewords
 
-**Season 10 New and Updated Runewords** have a small <span class="rw-Table-tdTitlePatch">S10 New/Upd</span> icon next to the name.
+**Season 11 New and Updated Runewords** have a small <span class="rw-Table-tdTitlePatch">S11 New/Upd</span> icon next to the name.
 
 ## Note about storage
 

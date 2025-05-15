@@ -39,7 +39,7 @@
 
             <a :href="`https://discord.gg/DWYBG2qd3u`" class="rw-Header-link">
               <icon-chat class="ux-icon ux-icon--fw ux-icon--lg mr-1" />
-              <span>{{ "Feedback" }}</span>
+              <span>{{ "Discord" }}</span>
             </a>
           </div>
         </div>
