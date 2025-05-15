@@ -11,6 +11,7 @@ type TItemTypeId =
   | "Maces"
   | "Melee Weapons"
   | "Missile Weapons"
+  | "Throwing Weapons"
   | "Orbs"
   | "Paladin Shields"
   | "Polearms"
