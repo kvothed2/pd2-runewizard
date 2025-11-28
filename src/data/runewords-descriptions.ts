@@ -1308,7 +1308,18 @@ const runewordsDesc: TRunewordMeta = {
   15% Damage Taken Goes To Mana
   30% Better Chance Of Getting Magic Items
   `,
-
+  "Ancient's Foresight": `-4% to Enemy Physical Resistance
++10-20% Enhanced Damage
++20 to Mana
+Regenerate Mana 20%
++5-15% Cold Resist
++5-15% Fire Resist`,
+  "Ancient's Scripture": `+10-20% Enhanced Damage
++10 to Maximum Damage
++20 to Life
+Heal Stamina Plus 20%
++5-15% Lightning Resist
++5-15% Poison Resist`,
 };
 
-export default runewordsDesc;
+export default runewordDescriptions;

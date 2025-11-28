@@ -677,6 +677,22 @@ const runewords: TRuneword[] = [
     version: 'S11 New'
   },
 
+  /* Project Diablo 2 S12 Runewords */
+  {
+    title: "Ancient's Foresight",
+    runes: ["Ral", "Thul"],
+    level: 25,
+    ttypes: ["Quivers"],
+    version: 'S12 New'
+  },
+  {
+    title: "Ancient's Scripture",
+    runes: ["Tal", "Ort"],
+    level: 25,
+    ttypes: ["Quivers"],
+    version: 'S12 New'
+  },
+
 ];
 
 export default runewords;
