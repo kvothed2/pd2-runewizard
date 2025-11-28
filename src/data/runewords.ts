@@ -700,7 +700,7 @@ const runewords: TRuneword[] = [
     version: 'S12 New'
   },
   {
-    title: "Echo (Throwing Weapons)",
+    title: "Echo (Thrown)",
     runes: ["Sol", "Dol"],
     level: 31,
     ttypes: ["Throwing Weapons"],
