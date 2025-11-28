@@ -1312,14 +1312,14 @@ const runewordsDesc: TRunewordMeta = {
 +10-20% Enhanced Damage
 +20 to Mana
 Regenerate Mana 20%
-+35-45% Cold Resist
-+35-45% Fire Resist`,
++40-50% Cold Resist
++40-50% Fire Resist`,
   "Ancient's Scripture": `+10-20% Enhanced Damage
 +10 to Maximum Damage
 +20 to Life
 Heal Stamina Plus 20%
-+35-45% Lightning Resist
-+35-45% Poison Resist`,
++40-50% Lightning Resist
++40-50% Poison Resist`,
   "Echo (Quiver)": `+20-30% Chance to Pierce
 +20-30% Enhanced Damage
 +10 to Maximum Damage
