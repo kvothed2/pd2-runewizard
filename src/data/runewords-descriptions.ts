@@ -1320,6 +1320,19 @@ Regenerate Mana 20%
 Heal Stamina Plus 20%
 +5-15% Lightning Resist
 +5-15% Poison Resist`,
+  "Echo (Quiver)": `+20-30% Chance to Pierce
++20-30% Enhanced Damage
++10 to Maximum Damage
+50% Bonus to Attack Rating
+Replenish Life +30
+Physical Damage Taken Reduced by 9
++2 Life after each Kill`,
+  "Echo (Throwing Weapons)": `Melee Attacks Deal Splash Damage
++20-30% Chance to Pierce
++40-60% Enhanced Damage
++9 to Minimum Damage
+50% Bonus to Attack Rating
++2 Life after each Kill`,
 };
 
 export default runewordDescriptions;

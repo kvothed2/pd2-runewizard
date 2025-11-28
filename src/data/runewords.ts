@@ -692,6 +692,20 @@ const runewords: TRuneword[] = [
     ttypes: ["Quivers"],
     version: 'S12 New'
   },
+  {
+    title: "Echo (Quiver)",
+    runes: ["Sol", "Dol"],
+    level: 31,
+    ttypes: ["Quivers"],
+    version: 'S12 New'
+  },
+  {
+    title: "Echo (Throwing Weapons)",
+    runes: ["Sol", "Dol"],
+    level: 31,
+    ttypes: ["Throwing Weapons"],
+    version: 'S12 New'
+  },
 
 ];
 
