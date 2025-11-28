@@ -1335,4 +1335,4 @@ Physical Damage Taken Reduced by 9
 +2 Life after each Kill`,
 };
 
-export default runewordDescriptions;
+export default runewordsDesc;
