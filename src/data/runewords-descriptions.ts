@@ -1327,7 +1327,7 @@ Heal Stamina Plus 20%
 Replenish Life +30
 Physical Damage Taken Reduced by 9
 +2 Life after each Kill`,
-  "Echo (Thrown)": `Melee Attacks Deal Splash Damage
+  "Echo (Throw)": `Melee Attacks Deal Splash Damage
 +20-30% Chance to Pierce
 +40-60% Enhanced Damage
 +9 to Minimum Damage
