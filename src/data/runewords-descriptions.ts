@@ -1308,7 +1308,31 @@ const runewordsDesc: TRunewordMeta = {
   15% Damage Taken Goes To Mana
   30% Better Chance Of Getting Magic Items
   `,
-
+  "Ancient's Foresight": `-4% to Enemy Physical Resistance
++10-20% Enhanced Damage
++20 to Mana
+Regenerate Mana 20%
++40-50% Cold Resist
++40-50% Fire Resist`,
+  "Ancient's Scripture": `+10-20% Enhanced Damage
++10 to Maximum Damage
++20 to Life
+Heal Stamina Plus 20%
++40-50% Lightning Resist
++40-50% Poison Resist`,
+  "Echo (Quiver)": `+20-30% Chance to Pierce
++20-30% Enhanced Damage
++10 to Maximum Damage
+50% Bonus to Attack Rating
+Replenish Life +30
+Physical Damage Taken Reduced by 9
++2 Life after each Kill`,
+  "Echo (Throw)": `Melee Attacks Deal Splash Damage
++20-30% Chance to Pierce
++40-60% Enhanced Damage
++9 to Minimum Damage
+50% Bonus to Attack Rating
++2 Life after each Kill`,
 };
 
 export default runewordsDesc;
