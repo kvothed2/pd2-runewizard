@@ -22,7 +22,8 @@ type TItemTypeId =
   | "Swords"
   | "Wands"
   | "Weapons"
-  | "2-H Swords";
+  | "2-H Swords"
+  | "Quivers";
 
 type TRuneId =
   | "El"

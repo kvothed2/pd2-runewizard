@@ -361,7 +361,7 @@ const runewordsDesc: TRunewordMeta = {
   +20 To Strength
   Replenish Life +20
 	All Resistances +50-60 (varies)
-	Physical Damage Taken Reduced By 5%
+	Physical Damage Taken Reduced By 6%
   30% Better Chance of Getting Magic Items
   `,
 
@@ -429,7 +429,7 @@ const runewordsDesc: TRunewordMeta = {
 	+500-775 Defense (varies)
 	+0-74 To Strength (0.5-0.75 per Character Level) (varies)
 	Increase Maximum Life 5%
-	Physical Damage Taken Reduced by 5%
+	Physical Damage Taken Reduced by 6%
 	15% Damage Taken Goes To Mana
 	+0-74% Better Chance of Getting Magic Items (0.5-0.75% per Character Level)
   <i>Blink is the same as Teleport, except it costs 
@@ -1307,6 +1307,39 @@ const runewordsDesc: TRunewordMeta = {
   Poison Resist +40-55% (varies)
   15% Damage Taken Goes To Mana
   30% Better Chance Of Getting Magic Items
+  `,
+
+  "Ancient's Foresight": `
+  +10-20% Enhanced Damage (varies)
+  +20 To Mana
+  Regenerate Mana 20%
+  Cold Resist +40-50% (varies)
+  Fire Resist +40-50% (varies)
+  `,
+
+   "Ancient's Scripture": `
+  +10-20% Enhanced Damage (varies)
+  +20 To Life
+  Heal Stamina Plus 20%
+  Lightning Resist +40-50% (varies)
+  Poison Resist +40-50% (varies)
+  `,
+
+  Echo: `
+  #### Quivers  
+  +20-30% Chance To Pierce (varies)
+  +20-30% Enhanced Damage (varies)
+  50% Bonus To Attack Rating
+  Replenish Life +30
+  Physical Damage Taken Reduced By 9
+  +2 To Life After Each Kill
+
+  #### Throwing Weapons
+  +20-30% Chance To Pierce (varies)
+  +65-85% Enhanced Damage (varies)
+  +9 To Minimum Damage
+  50% Bonus To Attack Rating
+  +2 To Life After Each Kill
   `,
 
 };
