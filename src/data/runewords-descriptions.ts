@@ -29,7 +29,7 @@ const runewordsDesc: TRunewordMeta = {
   -25% Target Defense
   50% Bonus To Attack Rating
   6% Life Stolen Per Hit
-  33-66% Deadly Strike (varies)
+  50% Deadly Strike
   +5 To Frenzy (Barbarian Only)
   +5 To Deep Wounds (Barbarian Only)
   `,
@@ -277,7 +277,7 @@ const runewordsDesc: TRunewordMeta = {
   Beast: `
   Level 8-10 Fanaticism Aura When Equipped (varies)
 	+40% Increased Attack Speed
-	+260-290% Enhanced Damage (varies)
+	+275-325% Enhanced Damage (varies)
 	20% Chance of Crushing Blow
 	10% Chance of Open Wounds
   +120 Open Wounds Damage Per Second
@@ -356,7 +356,7 @@ const runewordsDesc: TRunewordMeta = {
   +2 To All Skills
   +200% Damage To Demons
   +200% Damage To Undead
-  8% Life Stolen Per Hit
+  8-12% Life Stolen Per Hit (varies)
   +70% Enhanced Defense
   +20 To Strength
   Replenish Life +20
@@ -795,9 +795,8 @@ const runewordsDesc: TRunewordMeta = {
   2% Chance To Cast Level 15 Cyclone Armor On Casting (Staves Only)
   +3 To Cyclone Armor (Non-Staves Only)
   +35% Faster Run/Walk
-  +35% Faster Cast Rate (Staves Only)
   +255-325% Enhanced Damage (varies)
-  -45-55% To Enemy Lightning Resistance (varies)
+  -40-50% To Enemy Lightning Resistance (varies)
   40% Chance of Crushing Blow
   Prevent Monster Heal
   0-49 To Vitality (0.5 per Character Level)
@@ -812,7 +811,7 @@ const runewordsDesc: TRunewordMeta = {
 	180-250% Bonus to Attack Rating (varies)
 	Adds 5-30 Fire Damage
 	+75 Poison Damage Over 5 Seconds
-	+1-6 To Critical Strike (varies)
+	+15-25% Critical Strike Chance
 	+10-20 To All Attributes (varies)
 	+2 To Mana After Each Kill
 	23% Better Chance of Getting Magic Items
@@ -821,14 +820,14 @@ const runewordsDesc: TRunewordMeta = {
   "Last Wish": `
   6% Chance To Cast Level 11 Fade When Struck
 	10% Chance To Cast Level 11 Life Tap On Striking
-	60% Chance To Cast Level 40 Charged Bolt On Attack
-	Level 19 Might Aura When Equipped
-	+350-400% Enhanced Damage (varies)
+	Level 20 Might Aura When Equipped
+	+375-425% Enhanced Damage (varies)
 	Ignore Target's Defense
 	60-70% Chance of Crushing Blow (varies)
 	Prevent Monster Heal
 	+4 Life After Each Kill
-	+0-49% Chance of Getting Magic Items (0.5% per Character Level) 
+	+0-49% Chance of Getting Magic Items (0.5% per Character Level)
+  You May Apply An Additional Curse
   `,
 
   Lawbringer: `
@@ -876,7 +875,7 @@ const runewordsDesc: TRunewordMeta = {
   Phoenix: `
   #### Weapons
   100% Chance To Cast level 40 Blaze When You Level-up
-	20% Chance To Cast Level 40 Firestorm On Striking (On Casting in Staves)
+	33% Chance To Cast Level 40 Firestorm On Attack (On Casting in Staves)
 	Level 10-12 Redemption Aura When Equipped (varies)
 	+400-450% Enhanced Damage (varies)
 	Ignores Target's Defense
@@ -888,7 +887,7 @@ const runewordsDesc: TRunewordMeta = {
 
   #### Shields
   100% Chance To Cast level 40 Blaze When You Level-up
-	20% Chance To Cast Level 40 Firestorm On Striking
+	33% Chance To Cast Level 40 Firestorm On Attack
 	Level 10-12 Redemption Aura When Equipped (varies)
 	+250-300% Enhanced Damage (varies)
   +350-400 Defense Vs. Missile (varies)
@@ -1021,13 +1020,13 @@ const runewordsDesc: TRunewordMeta = {
   8% Chance To Cast level 12 Slow Movement When Struck
 	+1 to Amazon Skill Levels
 	+20% Faster Hit Recovery
-	+2 To Critical Strike
+	+2-3 To Critical Strike (Amazon Only)
 	Cold Resist +30%
 	Attacker Takes Damage of 20
   `,
 
   Principle: `
-  75% Chance To Cast Level 25 Holy Bolt On Striking
+  40% Chance To Cast Level 30 Holy Bolt On Striking
 	+2 To Paladin Skill Levels
 	+100-150% Damage to Demons (varies)
 	+100-150% Damage to Undead (varies)
@@ -1160,9 +1159,9 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Asylum: `
-  25% Chance To Cast Level 40 Fist of the Heavens on Striking (on Casting in Staves)
+  28% Chance To Cast Level 40 Fist of the Heavens on Striking (on Casting in Staves)
   Level 17-20 Sanctuary Aura When Equipped (varies)
-  +2 To All Skills
+  +4 To All Skills
   +285-335% Enhanced Damage (varies)
   Ignore Target's Defense
   50% Bonus To Attack Rating
@@ -1177,14 +1176,14 @@ const runewordsDesc: TRunewordMeta = {
   Zenith: `
   Indestructible
   Level 10-12 Salvation Aura When Equipped (varies)
-  +2 to All Skills
+  +3 to All Skills
   +20% Faster Run/Walk
   +40% Increased Attack Speed
   +225-300% Enhanced Damage
   Ignore Target's Defense
-  Adds 360-420 Fire Damage
-  Adds 360-420 Lightning Damage
-  Adds 360-420 Cold Damage
+  Adds 430-500 Fire Damage
+  Adds 430-500 Lightning Damage
+  Adds 430-500 Cold Damage
   `,
 
   Ferocity: `
@@ -1257,7 +1256,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Rapture: `
   14% Chance to Cast Level 46 Fissure on Striking
-  30% Chance to Cast Level 35 Lower Resist on Striking
+  47% Chance to Cast Level 35 Lower Resist on Striking
   20% Increased Attack Speed
   +240-280% Enhanced Damage (varies)
   Ignore Target's Defense

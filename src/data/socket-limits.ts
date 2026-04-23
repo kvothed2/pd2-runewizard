@@ -1,0 +1,27 @@
+const MAX_SOCKETS: Record<string, number> = {
+  "Axes": 6,
+  "Claws": 3,
+  "Clubs": 3,
+  "Daggers": 3,
+  "Hammers": 6,
+  "Maces": 3,
+  "Melee Weapons": 6,
+  "Missile Weapons": 6,
+  "Throwing Weapons": 3,
+  "Orbs": 3,
+  "Paladin Shields": 4,
+  "Polearms": 6,
+  "Scepters": 5,
+  "Shields": 4,
+  "Spears": 6,
+  "Staves": 6,
+  "Swords": 6,
+  "Wands": 2,
+  "Weapons": 6,
+  "2-H Swords": 6,
+  "Quivers": 2,
+  "Body Armors": 4,
+  "Helms": 3,
+};
+
+export default MAX_SOCKETS;
