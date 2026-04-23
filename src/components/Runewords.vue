@@ -114,7 +114,7 @@ export default defineComponent({
           const subSocketCap = MAX_SOCKETS[sub] ?? 6;
           if (subSocketCap < runeCount) return false;
           return (
-            item.ttypes.includes(sub) ||
+            item.ttypes.includes(sub as TItemTypeId) ||
             item.ttypes.some((t) => PARENT_TYPES.includes(t))
           );
         });
