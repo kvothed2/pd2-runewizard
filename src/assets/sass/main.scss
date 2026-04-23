@@ -454,6 +454,149 @@ object {
   }
 }
 
+/*
+ * RunewordFilters.vue — component styles
+ *
+ * Naming: all classes are prefixed with .rwf- to avoid collisions.
+ * Integrate by importing this file in your main stylesheet or in the
+ * component itself via <style src="@/styles/runeword-filters.css" />.
+ *
+ * The styles deliberately avoid hardcoded colors so they inherit from
+ * your existing CSS custom properties / Tailwind config. Swap the
+ * var() references for your own design tokens as needed.
+ */
+
+/* ── Layout ─────────────────────────────────────────────────────────── */
+
+.rwf-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rwf-top-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.rwf-sub-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 0px 0px 0px;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────── */
+
+.rwf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+  user-select: none;
+
+  /* visual defaults — replace with your tokens */
+  background: transparent;
+  color: #e9bf40;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  opacity: 0.7;
+  transition: opacity 0.1s, background 0.1s;
+}
+
+.rwf-btn:hover {
+  opacity: 1;
+}
+
+.rwf-btn--active {
+  opacity: 1;
+  /* example active treatment — override freely */
+  background: #1b000c;
+}
+
+/* Text inside an active button needs an explicit color so it stays
+   readable against the filled background. Set this to your bg color. */
+.rwf-btn--active > * {
+  color: var(--color-bg, #e9bf40);
+}
+
+.rwf-btn--sub {
+  font-size: 14px;
+  padding: 3px 10px;
+  opacity: 0.6;
+}
+
+.rwf-btn--sub:hover {
+  opacity: 1;
+}
+
+.rwf-btn--sub.rwf-btn--active {
+  opacity: 1;
+}
+
+/* ── Arrow indicator ─────────────────────────────────────────────────── */
+
+.rwf-arrow {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  transition: transform 0.15s ease;
+  opacity: 0.6;
+}
+
+.rwf-arrow--open {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+/* ── Sub-row labels ──────────────────────────────────────────────────── */
+
+.rwf-sub-label {
+  font-size: 11px;
+  opacity: 0.5;
+  white-space: nowrap;
+  margin-right: 0px;
+}
+
+.rwf-sub-hint {
+  font-size: 13px;
+  opacity: 0.9;
+  color: #a0c6ff;
+  margin-left: 4px;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* ── Clear button ────────────────────────────────────────────────────── */
+
+.rwf-clear {
+  margin-left: auto;
+  gap: 5px;
+  padding: 5px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a0c6ff;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #a0c6ff;
+  border-radius: 4px;
+  opacity: 0.7;
+  transition: opacity 0.1s;
+}
+
+.rwf-clear:hover {
+  opacity: 1;
+}
+
+
 // --------------------------------------------------------------------
 // (last) tailwind utilities
 // --------------------------------------------------------------------

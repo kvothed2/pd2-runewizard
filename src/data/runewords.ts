@@ -18,7 +18,7 @@ const runewords: TRuneword[] = [
     runes: ["Jah", "Gul", "Eth"],
     level: 65,
     ttypes: ["Melee Weapons", "Throwing Weapons"],
-    version: '',
+    version: 'S13 Upd',
   },
   {
     title: "Holy Thunder",
@@ -165,7 +165,7 @@ const runewords: TRuneword[] = [
     runes: ["Ber", "Tir", "Um", "Mal", "Lum"],
     level: 63,
     ttypes: ["Axes", "Scepters", "Hammers", "Staves"],
-    version: ''
+    version: 'S13 Upd'
   },
   {
     title: "Bramble",
@@ -185,7 +185,8 @@ const runewords: TRuneword[] = [
     title: "Call to Arms",
     runes: ["Amn", "Ral", "Mal", "Ist", "Ohm"],
     level: 57,
-    ttypes: ["Weapons"],
+    ttypes: ["Melee Weapons"],
+    version: 'S13 Upd',
   },
   {
     title: "Chaos",
@@ -199,7 +200,7 @@ const runewords: TRuneword[] = [
     runes: ["Dol", "Um", "Ber", "Ist"],
     level: 63,
     ttypes: ["Body Armors"],
-    version: 'S12 Upd',
+    version: 'S13 Upd',
   },
   {
     title: "Crescent Moon",
@@ -232,7 +233,7 @@ const runewords: TRuneword[] = [
     runes: ["Jah", "Ith", "Ber"],
     level: 65,
     ttypes: ["Body Armors"],
-    version: 'S12 Upd',
+    version: '',
   },
   {
     title: "Eternity",
@@ -402,21 +403,21 @@ const runewords: TRuneword[] = [
     runes: ["Ber", "Mal", "Ber", "Ist"],
     level: 63,
     ttypes: ["Polearms", "Spears", "Staves"],
-    version: ''
+    version: 'S13 Upd'
   },
   {
     title: "Insight",
     runes: ["Ral", "Tir", "Tal", "Sol"],
     level: 27,
     ttypes: ["Polearms", "Staves", "Spears"],
-    version: '',
+    version: 'S13 Upd',
   },
   {
     title: "Last Wish",
     runes: ["Jah", "Mal", "Jah", "Sur", "Jah", "Ber"],
     level: 65,
     ttypes: ["Swords", "Hammers", "Axes", "Staves"],
-    version: '',
+    version: 'S13 Upd',
   },
   {
     title: "Lawbringer",
@@ -443,7 +444,7 @@ const runewords: TRuneword[] = [
     runes: ["Vex", "Vex", "Lo", "Jah"],
     level: 65,
     ttypes: ["Weapons", "Shields"],
-    version: '',
+    version: 'S13 Upd',
   },
   {
     title: "Pride",
@@ -509,14 +510,14 @@ const runewords: TRuneword[] = [
     level: 29,
     ttypes: ["Body Armors"],
     tinfos: "",
-    version: ''
+    version: 'S13 Upd'
   },
   {
     title: "Principle",
     runes: ["Ral", "Gul", "Eld"],
     level: 53,
     ttypes: ["Body Armors"],
-    version: '',
+    version: 'S13 Upd',
   },
   {
     title: "Rain",
@@ -627,7 +628,7 @@ const runewords: TRuneword[] = [
     runes: ["Gul", "Cham", "Hel", "Jah", "Dol", "Um"],
     level: 67,
     ttypes: ["Staves", "Hammers", "Missile Weapons", "Polearms", "Spears", "2-H Swords"],
-    version: '',
+    version: 'S13 Upd',
   },
 
   {
@@ -651,7 +652,7 @@ const runewords: TRuneword[] = [
     runes: ["Vex", "Jah", "Lo", "Ral", "Ko", "Mal"],
     level: 65,
     ttypes: ["Hammers"],
-    version: ''
+    version: 'S13 Upd'
   },
 
   {
@@ -683,7 +684,7 @@ const runewords: TRuneword[] = [
     runes: ["Ral", "Thul"],
     level: 25,
     ttypes: ["Quivers"],
-    version: 'S12 New'
+    version: ''
   },
 
   {
@@ -691,7 +692,7 @@ const runewords: TRuneword[] = [
     runes: ["Tal", "Ort"],
     level: 25,
     ttypes: ["Quivers"],
-    version: 'S12 New'
+    version: ''
   },
 
   {
@@ -699,7 +700,7 @@ const runewords: TRuneword[] = [
     runes: ["Sol", "Dol"],
     level: 31,
     ttypes: ["Quivers", "Throwing Weapons"],
-    version: 'S12 New'
+    version: ''
   },
 
 ];
