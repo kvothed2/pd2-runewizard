@@ -22,6 +22,7 @@ const itemTypes: { [key in TItemTypeId]: { url?: string } } = {
   Weapons: {},
   "2-H Swords": {},
   Quivers: {},
+  "Amazon Throwing Weapons": {},
 };
 
 export default itemTypes;

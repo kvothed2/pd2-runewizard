@@ -8,6 +8,7 @@ const MAX_SOCKETS: Record<string, number> = {
   "Melee Weapons": 6,
   "Missile Weapons": 6,
   "Throwing Weapons": 3,
+  "Amazon Throwing Weapons": 3,
   "Orbs": 3,
   "Paladin Shields": 4,
   "Polearms": 6,

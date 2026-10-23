@@ -169,7 +169,7 @@ const runewordsDesc: TRunewordMeta = {
   20% Increased Chance of Blocking
   40% Faster Block Rate
   All Resistances +25
-  Regenerate Mana 15%
+  Regenerate Mana 20%
   Cannot Be Frozen
   50% Extra Gold From Monsters
   25% Better Chance Of Getting Magic Items
@@ -180,7 +180,7 @@ const runewordsDesc: TRunewordMeta = {
   +2 To All Skills
 	20% Increased Attack Speed
 	20% Faster Hit Recovery
-	+295-395% Enhanced Damage
+	+295-395% Enhanced Damage (varies)
 	+75% Damage To Undead
 	+50 To Attack Rating Against Undead
   11% Mana Stolen Per Hit
@@ -206,7 +206,7 @@ const runewordsDesc: TRunewordMeta = {
 	20% Faster Cast Rate
 	20% Faster Hit Recovery 
 	+6 To Dexterity
-	Regenerate Mana 15%
+	Regenerate Mana 20%
 	+15 To Maximum Stamina
 	Poison Resist +30%
 	Magic Damage Taken Reduced By 3
@@ -296,8 +296,8 @@ const runewordsDesc: TRunewordMeta = {
 	+40-50% To Poison Skill Damage (varies)
 	+300 Defense
 	Increase Maximum Mana 5%
-	Regenerate Mana 15%
-	+4% To Maximum Cold Resist
+	Regenerate Mana 20%
+	+5% To Maximum Cold Resist
 	Fire Resist +30%
 	Poison Resist +100%
 	+4-6 Life After Each Kill (varies)
@@ -389,6 +389,9 @@ const runewordsDesc: TRunewordMeta = {
 	50% Extra Gold From Monsters
 	30% Better Chance of Getting Magic Items
 	Level 17 Attract (60 Charges)
+  +1 To Delirium Form (Oskill)
+  <i>Delirium Form: -10% To Enemy Physical Resistance, Ignores Target's Defense
+  Abilities Cannot Be Used When In Delirium Form</i>
   `,
 
   Doom: `
@@ -442,7 +445,7 @@ const runewordsDesc: TRunewordMeta = {
 	Adds 70-71 Damage
 	7% Life Stolen Per Hit
 	20% Chance of Crushing Blow
-  +4 To Revive
+  +12 To Revive
 	+4 Life After Each Kill
 	You May Now Summon 6 Additional Revives
 	10% Reanimate As: Wraith
@@ -458,8 +461,8 @@ const runewordsDesc: TRunewordMeta = {
 	Freezes Target
 	+220-260% Enhanced Defense (varies)
 	Replenish Life +30
-	+4% To Maximum Cold Resist
-	+4% To Maximum Fire Resist
+	+5% To Maximum Cold Resist
+	+5% To Maximum Fire Resist
 	30% Better Chance Of Getting Magic Items
 	Repairs 1 Durability in 4 Seconds
   `,
@@ -471,9 +474,9 @@ const runewordsDesc: TRunewordMeta = {
 	Adds 125-250 Fire Damage
 	Adds 101-275 Lightning Damage
 	Adds 100-225 Cold Damage
-	-10-15% To Enemy Lightning Resistance (varies)
-	-10-15% To Enemy Cold Resistance (varies)
-	-10-15% To Enemy Fire Resistance (varies)
+	-15-20% To Enemy Lightning Resistance (varies)
+	-15-20% To Enemy Cold Resistance (varies)
+	-15-20% To Enemy Fire Resistance (varies)
 	+10 To Strength
   `,
 
@@ -481,28 +484,28 @@ const runewordsDesc: TRunewordMeta = {
   Level 1-6 Resist Fire Aura When Equipped (varies)
   +2 To Fire Skills
   -5-10% To Enemy Fire Resistance (varies)
-  +50% Enhanced Defense
+  +75% Enhanced Defense
   +30 Defense vs. Missile
   +65-75 To Mana (varies)
-  +4% To Maximum Fire Resist
+  +5% To Maximum Fire Resist
   Half Freeze Duration
   `,
 
   Gloom: `
   15% Chance To Cast Level 9 Dim Vision When Struck
-	+20-40% Faster Hit Recovery (varies)
-	+220-280% Enhanced Defense (varies)
+	+20% Faster Hit Recovery
+	+245-305% Enhanced Defense (varies)
 	+10 To Strength
 	All Resistances +45
 	Half Freeze Duration
-	5% Damage Taken Goes To Mana
-	+20% Curse Resistance
+	+1 To Maximum Curses
+	+30-40% Curse Resistance (varies)
   `,
 
   "Hand of Justice": `
   100% Chance To Cast Level 36 Blaze When You Level-Up
 	100% Chance To Cast Level 48 Meteor When You Die
-	Level 12 Holy Fire Aura When Equipped
+	Level 14 Holy Fire Aura When Equipped
 	+33% Increased Attack Speed
 	+280-330% Enhanced Damage (varies)
 	Ignore Target's Defense
@@ -586,7 +589,7 @@ const runewordsDesc: TRunewordMeta = {
 	+20% Faster Block Rate
 	+60-100% Enhanced Defense (varies)
 	+10 To Energy
-	Regenerate Mana 15%
+	Regenerate Mana 20%
 	50% Extra Gold From Monsters
 	20-30% Better Chance of Getting Magic Items (varies)
 	+3 To Light Radius
@@ -596,7 +599,7 @@ const runewordsDesc: TRunewordMeta = {
   Indestructible
 	+1 To All Skills
 	+60% Faster Hit Recovery
-	+250-340% Enhanced Defense (varies)
+	+275-365% Enhanced Defense (varies)
 	+10-16 To Strength (varies)
 	+10-16 To Vitality (varies)
 	+10 To Energy
@@ -673,7 +676,7 @@ const runewordsDesc: TRunewordMeta = {
 	+0-37 To Strength (0.375 per Character Level)
 	Increase Maximum Mana 5% (Armor Only)
 	+75 To Mana (Shields Only)
-	+4% To Maximum Lightning Resist
+	+5% To Maximum Lightning Resist
 	Physical Damage Taken Reduced by 7 (9 in Shields)
   
   `,
@@ -682,7 +685,7 @@ const runewordsDesc: TRunewordMeta = {
   10% Chance To Cast Level 15 Confuse When Struck
 	Level 14 Holy Shock Aura When Equipped
 	+20-30% Faster Hit Recovery (varies)
-	+50% Enhanced Defense
+	+75% Enhanced Defense
 	+150-220 Defense (varies)
 	+10 To Vitality
 	Increase Maximum Life 5% (Helms Only)
@@ -737,7 +740,7 @@ const runewordsDesc: TRunewordMeta = {
 	+15 Defense
 	+1-148 To Life (1-1.5 per Character Level) (varies)
 	Replenish Life +20
-	+4% To Maximum Lightning Resist
+	+5% To Maximum Lightning Resist
 	All Resistances +25-30 (varies)
 	Physical Damage Taken Reduced By 7
 	12% Damage Taken Goes To Mana
@@ -893,8 +896,8 @@ const runewordsDesc: TRunewordMeta = {
   +350-400 Defense Vs. Missile (varies)
 	-28% To Enemy Fire Resistance
 	+75 To Life
-	+4% To Maximum Lightning Resist
-	+8% To Maximum Fire Resist
+	+5% To Maximum Lightning Resist
+	+9% To Maximum Fire Resist
   `,
 
   Pride: `
@@ -999,7 +1002,7 @@ const runewordsDesc: TRunewordMeta = {
 	+2 To Sorceress Skill Levels
 	20% Faster Cast Rate
   +5-8 To Warmth (varies)
-	+50% Enhanced Defense
+	+75% Enhanced Defense
 	Fire Resist +30%
 	Physical Damage Taken Reduced by 7
   `,
@@ -1032,7 +1035,7 @@ const runewordsDesc: TRunewordMeta = {
 	+100-150% Damage to Undead (varies)
 	+100-150 To Life (varies)
 	15% Slower Stamina Drain
-	+4% To Maximum Poison Resist
+	+5% To Maximum Poison Resist
 	Fire Resist +30%
   `,
 
@@ -1106,7 +1109,7 @@ const runewordsDesc: TRunewordMeta = {
   +33% Chance to Pierce
   +15-25% Bonus to Attack Rating (varies)
   4-8% Mana Stolen Per Hit (varies)
-  +50% Enhanced Defense
+  +75% Enhanced Defense
   +10 To Energy
   15% Slower Stamina Drain
   Cannot Be Frozen
@@ -1247,7 +1250,7 @@ const runewordsDesc: TRunewordMeta = {
   +2 To All Skills
   20% Chance Of Crushing Blow
   +200-275% Enhanced Defense (varies)
-  +4% To Maximum Poison Resist
+  +5% To Maximum Poison Resist
   Poison Length Reduced by 50%
   Attacker Takes Damage of 600-800 (varies)
   50% Extra Gold From Monsters
@@ -1298,11 +1301,11 @@ const runewordsDesc: TRunewordMeta = {
   Epiphany: `
   25% Chance To Cast Level 27 Static Field When Struck
   Level 18 Energy Shield When Equipped
-  20% Faster Cast Rate
-  Adds 1-750 Lightning Damage
+  35% Faster Cast Rate
+  Adds 1-1250 Lightning Damage
   +10-15 To All Attributes (varies)
   Increase Maximum Mana 28-35% (varies)
-  +8% To Maximum Lightning Resistance
+  +9% To Maximum Lightning Resistance
   Poison Resist +40-55% (varies)
   15% Damage Taken Goes To Mana
   30% Better Chance Of Getting Magic Items
@@ -1325,7 +1328,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Echo: `
-  #### Quivers  
+  #### Quivers
   +20-30% Chance To Pierce (varies)
   +20-30% Enhanced Damage (varies)
   50% Bonus To Attack Rating
@@ -1339,6 +1342,51 @@ const runewordsDesc: TRunewordMeta = {
   +9 To Minimum Damage
   50% Bonus To Attack Rating
   +2 To Life After Each Kill
+  `,
+
+  Madness: `
+  19% Chance To Cast Level 26 Lower Resist On Striking
+  8% Chance To Cast Level 11 Life Tap On Striking
+  19% Chance To Cast Level 27 Amplify Damage On Striking
+  +45% Increased Attack Speed
+  +200-250% Enhanced Damage (varies)
+  +70-120 To Maximum Damage (varies)
+  7% Mana Stolen Per Hit
+  Prevent Monster Heal
+  All Resistances +20-30 (varies)
+  +4 To Life After Each Kill
+  `,
+
+  Finesse: `
+  +20% Increased Attack Speed
+  +25-35% Chance To Pierce (varies)
+  +50-100% Enhanced Defence (varies)
+  +30 Defence Vs. Missile
+  Replenish Life +20
+  Fire Resist +30%
+  45% Extra Gold From Monsters
+  `,
+
+  Deception: `
+  +15-20% Critical Strike Multiplier (varies)
+  +5-10% Critical Strike Chance (varies)
+  +80-120 Defence (varies)
+  +10-20 To Strength (varies)
+  -50 To Life
+  Attacker Takes Damage Of 20
+  Requirements -15%
+  `,
+
+  Jealousy: `
+  +12 To Split Throw
+  +2 To Passive And Magic Skills (Amazon Only)
+  +20% Faster Hit Recovery
+  +260-320% Enhanced Damage (varies)
+  50% Bonus To Attack Rating
+  Adds 3-14 Cold Damage
+  5% Life Stolen Per Hit
+  -12-16% To Enemy Poison Resistance (varies)
+  +20% Chance Of Deadly Strike
   `,
 
 };
