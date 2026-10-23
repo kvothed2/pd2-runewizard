@@ -23,7 +23,8 @@ type TItemTypeId =
   | "Wands"
   | "Weapons"
   | "2-H Swords"
-  | "Quivers";
+  | "Quivers"
+  | "Amazon Throwing Weapons";
 
 type TRuneId =
   | "El"

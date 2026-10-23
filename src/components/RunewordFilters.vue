@@ -69,7 +69,7 @@ const TOP_CATEGORIES: Category[] = [
     label: "Throwing Weapons",
     expandable: false,
     subtypes: [],
-    matches: ["Throwing Weapons", "Weapons"],
+    matches: ["Throwing Weapons", "Weapons", "Amazon Throwing Weapons"],
   },
   {
     id: "armor",
